@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Corner - Web Player: Music for everyone </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="brand">
+            <img src="logo.png" alt="Spotify">
+            <h2> Music Corner </h2>
+        </div>
+    </nav>
+    <main>
+
+        <div class="container">
+            <div class="songList">
+                <h1>Your Favourite Music Is Here....</h1>
+                <div class="songItemContainer">
+                    <div class="songItem">
+                        <img alt="song-img">
+                        <span class="songName"> </span>
+                        <span class="songlistplay">
+                            <span class="timestamp">02:40
+                                <i id="0" class="far songItemPlay fa-play-circle"></i>
+                            </span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="song-img">
+                        <span class="songName"></span>
+                        <span class="songlistplay"><span class="timestamp">03:28 <i id="1"
+                                    class="far songItemPlay fa-play-circle"></i> </span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="song-img">
+                        <span class="songName"></span>
+                        <span class="songlistplay"><span class="timestamp">03:17 <i id="2"
+                                    class="far songItemPlay fa-play-circle"></i> </span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="song-img">
+                        <span class="songName"></span>
+                        <span class="songlistplay"><span class="timestamp">04:11 <i id="3"
+                                    class="far songItemPlay fa-play-circle"></i> </span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="song-img">
+                        <span class="songName"></span>
+                        <span class="songlistplay"><span class="timestamp">03:49 <i id="4"
+                                    class="far songItemPlay fa-play-circle"></i> </span></span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="songBanner"></div>
+        </div>
+
+    </main>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+            <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif">
+            <span id="masterSongName">Like This </span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a49bb1045a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
